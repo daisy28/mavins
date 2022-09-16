@@ -9,8 +9,27 @@
 </head>
 <body class="font-signika">
     <header class="h-40 bg-background">
-        <nav class="mx-auto w-1/2">
-            <img class="w-full" src="img/image 62.svg" alt="">
+        <nav class="py-12 px-10">
+            <div class="flex justify-between items-center">
+                <div class="w-40">
+                    <img class="w-full" src="img/image 62.svg" alt="">
+                </div>
+
+                <div class="text-darkbrown w-6 h-6 cursor-pointer sm:hidden">
+                    <ion-icon class="w-full h-full" name="menu-outline"></ion-icon>
+                </div>
+
+                <div class="hidden sm:block md:flex justify-between w-80 items-center text-brown">
+                    <a class="text-darkbrown sm:pr-3 md:pr-0" href="">Home</a>
+                    <a class="sm:pr-4 md:px-0" href="">Shows</a>
+                    <a class="sm:pr-3 md:px-0"  href="">Careers</a>
+                    <a class="sm:pr-3 md:px-0"  href="">Our Blog</a>
+                </div>
+            </div>
+
+            
+            
+
         </nav>
     </header>
 
@@ -64,7 +83,7 @@
                 </div>
 
                 <div class="w-full h-full ">
-                    <img class="rounded-xl mb-4 w-full" src="img/image 65.svg" alt="">
+                    <img class="rounded-xl mb-4 w-full" src="img/image 69.svg" alt="">
                     <p class="text-brown text-2xl font-medium text-center">Ladipoe</p>
                 </div>
 
@@ -75,7 +94,7 @@
 
                 <div class="w-full h-full ">
                     <img class="rounded-xl mb-4 w-full" src="img/image 72.svg" alt="">
-                    <p class="text-brown text-2xl font-medium text-center">Don Jazzy - C.E.O</p>
+                    <p class="text-brown text-2xl font-bold text-center">Don Jazzy - C.E.O</p>
                 </div>
 
                 <div class="w-full h-full ">
@@ -94,23 +113,25 @@
                 </div>
 
                 <div class="w-full h-full">
-                    <img class="rounded-xl mb-4" src="img/image 71.svg" alt="">
-                    <p class="text-brown text-2xl font-medium text-center">Stixx</p>
-                    <!-- <img src="img/Group 702.svg h-full absolute" alt=""> -->
+                    <div class=" relative">
+                        <img class="rounded-xl mb-4 w-full" src="img/image 71.svg" alt="">
+                        <img class="absolute inset-0" src="img/Frame 60007.svg" alt="">
+                    </div>
+               
                 </div>
 
             </div>
         </div>
     </section>
 
-    <section>
-        <div class="bg-brown p-4 md:p-10 lg:p-20">
+    <section class="">
+        <div class="bg-brown p-4 sm:bg-[url('img/About us.svg')] bg-no-repeat bg-top bg-blend-normal bg-contain md:p-10 lg:p-20">
             <div class="w-1/2 mx-auto my-6">
                 <p class="text-3xl text-white font-extrabold text-center">About us</p>
                 <img class="mx-auto" src="img/Frame.svg" alt="">
             </div>
 
-            <div class="text-background text-lg font-thin text-center xl:w-1/2 xl:mx-auto">
+            <div class="text-background text-lg font-normal text-center xl:w-1/2 xl:mx-auto">
                 
                 <p class="mb-4">Mavin's taste for delivering the utmost value, 
                      has inspired the company's expansion into innovative
@@ -118,6 +139,7 @@
                      publishing and marketing.
                      It currently houses 11 artistes and has overseen a 
                      label record release of 16 albums so far.
+                     bg-no-repeat bg-top bg-blend-normal
                 </p>
 
                 <p class="mb-4">
@@ -136,8 +158,8 @@
         </div>
     </section>
 
-    <section>
-        <div class="bg-background p-4 xl:p-10">
+    <section class="bg">
+        <div class="bg-background p-4 xl:p-10 sm:bg-[url('img/discography.svg')] bg-no-repeat bg-top bg-blend-normal bg-contain">
             <div class="my-8 xl:mb-12">
                 <p class="text-4xl text-darkbrown font-bold text-center mb-8">Our Albums you listen to!</p>
             </div>
@@ -149,7 +171,7 @@
                         </div>
                 </div>
     
-                <div class="text-darkbrown text-lg font-thin my-8 xl:w-1/3 xl:my-0">
+                <div class="text-darkbrown text-lg font-normal my-8 xl:w-1/3 xl:my-0">
                     <p class="mb-4">
                          We are appreciative of our large fanbase for
                          always streaming and downloading our beautiful
@@ -207,17 +229,17 @@
                 </div>
 
                 <div class="text-center text-background text-2xl p-4">
-                    <ion-icon class="p-2" name="logo-twitter"></ion-icon>
-                    <ion-icon class="p-2" name="logo-facebook"></ion-icon>
-                    <ion-icon class="p-2" name="logo-instagram"></ion-icon>
-                    <ion-icon class="p-2" name="logo-github"></ion-icon>
+                   <a href=""><ion-icon class="p-2" name="logo-twitter"></ion-icon></a> 
+                   <a href=""> <ion-icon class="p-2" name="logo-facebook"></ion-icon></a>
+                   <a href=""><ion-icon class="p-2" name="logo-instagram"></ion-icon></a>
+                    <a href=""><ion-icon class="p-2" name="logo-github"></ion-icon></a> 
                 </div>
             </div>
 
-            <div class="border border-background mb-4"></div>
+            <div class="border border-dotted border-background mb-4"></div>
 
             <div class="text-center text-background text-xs">
-                <p>&copy; MAIN GLOBAL HOLDINGS. All Rights Reserved 2022</p>
+                <p>&copy; MAVIN GLOBAL HOLDINGS. All Rights Reserved 2022</p>
             </div>
 
         </div>
