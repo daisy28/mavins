@@ -623,6 +623,10 @@ video {
   height: 100%;
 }
 
+.h-8{
+  height: 2rem;
+}
+
 .w-40{
   width: 10rem;
 }
@@ -645,6 +649,10 @@ video {
 
 .w-1\/2{
   width: 50%;
+}
+
+.w-8{
+  width: 2rem;
 }
 
 .cursor-pointer{
@@ -813,7 +821,8 @@ video {
 }
 
 .text-black1{
-  color: ##131415;
+  --tw-text-opacity: 1;
+  color: rgb(19 20 21 / var(--tw-text-opacity));
 }
 
 .text-background{
@@ -841,14 +850,16 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-.hover\:bg-darkbrown:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(77 42 21 / var(--tw-bg-opacity));
+.transition{
+  transition-property: color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
-.hover\:bg-brown:hover{
-  --tw-bg-opacity: 1;
-  background-color: rgb(123 79 53 / var(--tw-bg-opacity));
+.duration-75{
+  transition-duration: 75ms;
 }
 
 .hover\:bg-background_two:hover{
@@ -861,6 +872,16 @@ video {
   color: rgb(77 42 21 / var(--tw-text-opacity));
 }
 
+.hover\:text-black1:hover{
+  --tw-text-opacity: 1;
+  color: rgb(19 20 21 / var(--tw-text-opacity));
+}
+
+.hover\:text-background_two:hover{
+  --tw-text-opacity: 1;
+  color: rgb(183 138 108 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px){
   .sm\:block{
     display: block;
@@ -868,10 +889,6 @@ video {
 
   .sm\:hidden{
     display: none;
-  }
-
-  .sm\:bg-\[url\(\'img\/discography\.svg\'\)\]{
-    background-image: url('img/discography.svg');
   }
 
   .sm\:pr-3{

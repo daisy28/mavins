@@ -9,7 +9,7 @@ module.exports = {
         brown: "#7B4F35",
         background: "#D5C8BB",
         background_two: "#B78A6C",
-        black1: "##131415"
+        black1: "#131415"
       },
 
       boxShadow: {
